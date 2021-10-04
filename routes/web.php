@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return 'deployed on cloudways';
+    return 'deployed on cloudways!';
 });
 
 Route::get('/users', function () {
